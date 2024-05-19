@@ -2,7 +2,7 @@
 
 ## 1. Data Entry, Data Types, Editing and Deleting
 
-## Steps to Create and Populate a Workbook
+### Steps to Create and Populate a Workbook
 
 ### 1. Create a New Workbook
 1. Open Excel.
