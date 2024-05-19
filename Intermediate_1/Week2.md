@@ -8,7 +8,7 @@
 - [Finding Text (FIND)](#finding-text-find-)
 - [Date Calculations (NOW, TODAY, YEARFRAC)](#date-calculations-now-today-yearfrac-)
 
-## Combining Text (CONCAT, &)
+<!-- ## Combining Text (CONCAT, &)
 
 Content for the "Combining Text" section goes here.
 
@@ -37,6 +37,7 @@ Table of Contents
 - [Date Calculations (NOW, TODAY, YEARFRAC)](#Date-Calculations-(NOW,TODAY,YEARFRAC))
 
 
+-->
 
 # Combining Text (CONCAT, &)
 
@@ -81,6 +82,71 @@ Both the CONCAT function and the Ampersand sign offer efficient ways to join dat
 
 
 # Changing Text Case (UPPER, LOWER, PROPER)
+
+1. **UPPER Function**:
+   - Syntax: `UPPER(text)`
+   - `UPPER("hello")` returns "HELLO".
+   - Description: Converts all letters in a text string to uppercase.
+
+2. **LOWER Function**:
+   - Syntax: `LOWER(text)`
+   - `LOWER("WORLD")` returns "world".
+   - Description: Converts all letters in a text string to lowercase.
+
+3. **PROPER Function**:
+   - Syntax: `PROPER(text)`
+   - `PROPER("john doe")` returns "John Doe"
+   - Description: Capitalizes the first letter in each word of a text string and converts the rest of the letters to lowercase.
+
+
 # Extracting Text (LEFT, MID, RIGHT)
+
+1. **LEFT Function**:
+   - Syntax: `LEFT(text, num_chars)`
+   - Description: Extracts a specified number of characters from the left side of a text string.
+   - Example: 
+     - `=LEFT("Location", 2)` extracts the first 2 characters from the text "Location", resulting in "Lo".
+
+2. **RIGHT Function**:
+   - Syntax: `RIGHT(text, num_chars)`
+   - Description: Extracts a specified number of characters from the right side of a text string.
+   - Example:
+     - `=RIGHT("Location", 4)` extracts the last 4 characters from the text "Location", resulting in "tion".
+
+3. **MID Function**:
+   - Syntax: `MID(text, start_num, num_chars)`
+   - Description: Extracts a specified number of characters from a text string, starting at a specified position.
+   - Example:
+     - `=MID("Location", 5, 3)` extracts 3 characters from the text "Location", starting at the 5th position, resulting in "ati".
+
+
+
+
 # Finding Text (FIND)
+
+1. **FIND Function**:
+   - Syntax: `FIND(find_text, within_text, [start_num])`
+   - Description: Finds the starting position of a specified text within another text string. Optionally, you can specify a start position for the search.
+   - Example:
+     - `=FIND(" ", K4)` finds the position of the first space within the text in cell K4.
+     - `=FIND(" ", K4, 5)` finds the position of the first space within the text in cell K4, starting the search from the 5th character.
+
+
 # Date Calculations (NOW, TODAY, YEARFRAC)
+
+1. **NOW Function**:
+   - Syntax: `NOW()`
+   - Description: Returns the current date and time.
+   - Example: `=NOW()` returns the current date and time.
+
+2. **TODAY Function**:
+   - Syntax: `TODAY()`
+   - Description: Returns the current date.
+   - Example: `=TODAY()` returns the current date.
+
+3. **YEARFRAC Function**:
+   - Syntax: `YEARFRAC(start_date, end_date, [basis])`
+   - Description: Calculates the fraction of a year between two dates.
+   - Example: `=YEARFRAC(F4, TODAY())` calculates the number of years between the start date (cell F4) and today's date.
+
+
