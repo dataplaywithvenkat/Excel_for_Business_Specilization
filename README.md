@@ -127,13 +127,6 @@ Flash Fill is a feature available in Excel 2013 and later versions that automati
 3. Click on the Auto Fill Options icon.
 4. Select `Flash Fill` to automatically apply the pattern to the rest of the column.
 
-## Practice Exercise
-Try using the fill handle and flash fill features to create your help desk roster and other data patterns. This practice will help you become more confident and efficient in using Excel.
-
-## Conclusion
-By following this guide, you should be able to use the fill handle and flash fill to quickly and efficiently complete tasks in Excel, such as creating rosters, filling series, copying data, and recognizing patterns.
-
-
 
 
 
