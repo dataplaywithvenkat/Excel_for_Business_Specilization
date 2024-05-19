@@ -1,14 +1,14 @@
 # Intermediate I
 
 Table of Contents
-- [Multiple Worksheets](#Multiple_Worksheets)
+- [Multiple Worksheets](#Multiple-Worksheets)
 - [3D Formulas](#3D_Formulas)
 - [Linking Workbooks](#Linking_Workbooks)
 - [Consolidating by Position](#Consolidating_by_Position)
 - [Consolidating by Category (Reference)](#Consolidating_by_Category_(Reference))
 
 
-# Multiple_Worksheets
+# Multiple Worksheets
 
 ### 1. Adding a New Worksheet
 1. Click the `+` button to the right of the worksheet tabs.
