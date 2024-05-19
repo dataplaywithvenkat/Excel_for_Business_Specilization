@@ -362,7 +362,105 @@ A more efficient way to sum values across multiple worksheets is by using 3D for
    - Consider the implications of linked data, as it can be more complex and harder to manage.
 
 
+## Consolidating by Category (Reference)
 
+
+### 1. Preparing Your Workbooks
+1. **Open Workbooks**: Ensure you have the necessary workbooks open (`W1_LinkingWorkbooks.xlsx`, and the regional workbooks for Melbourne, Perth, and Sydney).
+2. **Open Multiple Workbooks**:
+   - Press `Ctrl+O`.
+   - Navigate to where your workbooks are stored.
+   - Select the Melbourne, Perth, and Sydney workbooks using `Ctrl` and click `Open`.
+
+### 2. Arrange Workbooks for Easy Viewing
+1. **Minimize Ribbon**: Double-click the Home tab to minimize the ribbon.
+2. **Arrange All Workbooks**:
+   - Go to the View tab and select "Arrange All".
+   - Choose "Tile" and click "OK" to view all workbooks simultaneously.
+
+### 3. Using the Consolidate Tool
+1. **Start Consolidation**:
+   - Click in the cell where you want the consolidation to begin (e.g., `C7`).
+   - Go to the Data tab, find the Data Tools group, and click on "Consolidate".
+
+2. **Configure Consolidation**:
+   - In the Consolidate dialog, select the function you want to use (e.g., Sum).
+   - Click in the reference box.
+   - Select the range from the first workbook (e.g., Perth, `C7:F28`), then click "Add".
+   - Repeat this for the other workbooks (Melbourne and Sydney), ensuring you click "Add" after each selection.
+
+3. **Complete Consolidation**:
+   - Once all ranges are added, click "OK".
+   - The data from the selected workbooks will be summed and placed into the new workbook. Note that this is a snapshot; there are no formulas, just values.
+
+### 4. Updating Consolidated Data
+1. **Manual Update**:
+   - If the source data changes, the consolidated data will not update automatically. 
+   - To update, click back into the cell where the consolidation starts (e.g., `C7`).
+   - Go to Data > Data Tools > Consolidate, and click "OK" again.
+
+### 5. Creating Linked Consolidations
+1. **Enable Links**:
+   - Duplicate the worksheet to preserve the original data (hold `Ctrl` and drag the worksheet tab).
+   - Clear the data in the new sheet.
+   - Run the consolidation again, but this time, check the box "Create links to source data" before clicking "OK".
+
+2. **Manage Linked Consolidations**:
+   - The linked consolidation will create an outline with plus signs (+) next to rows.
+   - Clicking the plus sign will expand the details, showing data pulled from each workbook.
+   - Note that linked consolidations cannot be undone easily. To remove, select affected cells, go to Data > Outline > Ungroup, and then "Clear Outline".
+
+### 6. Important Considerations
+1. **Identical Workbook Structure**:
+   - Ensure all workbooks have an identical structure when using Consolidate by Position.
+2. **Potential Issues with Links**:
+   - Consider the implications of linked data, as it can be more complex and harder to manage.
+
+## Conclusion
+The Consolidate tool is a powerful feature for combining data from multiple workbooks without the complications of linking. Practice using it to streamline your data management processes in collaborative environments.
+
+### 1. Preparing Your Workbooks
+1. **Open Workbooks**:
+   - Press `Ctrl+O`.
+   - Click Browse and select the leave days workbooks for Melbourne, Perth, and Sydney.
+   - Click `Open`.
+
+### 2. Arrange Workbooks for Easy Viewing
+1. **Minimize Ribbon**: Double-click the Home tab to minimize the ribbon.
+2. **Arrange All Workbooks**:
+   - Go to the View tab and select "Arrange All".
+   - Press "Enter" to tile the workbooks for simultaneous viewing.
+
+### 3. Using the Consolidate Tool with Labels
+1. **Start Consolidation**:
+   - Click in the cell where the consolidation should begin (e.g., `B5`).
+   - Go to the Data tab, find the Data Tools group, and click on "Consolidate".
+
+2. **Configure Consolidation**:
+   - In the Consolidate dialog, choose the function (e.g., Sum).
+   - Click in the reference box.
+   - Select the data range in the first workbook (e.g., Melbourne, `B5:G10`), and click "Add".
+   - Repeat this for the other workbooks (Sydney, `B5:G11` and Perth, `B5:G9`), clicking "Add" after each selection.
+
+3. **Use Labels for Consolidation**:
+   - To consolidate by reference, check the box for "Left column" under "Use labels in".
+   - Click "OK".
+
+### 4. Verifying the Consolidation
+1. **Check the Consolidated Data**:
+   - Verify the sum for a sample department (e.g., Accounting).
+   - Ensure the numbers match the expected totals from the individual workbooks.
+
+### 5. Using Different Functions
+1. **Calculate Averages**:
+   - Scroll down and click in a new cell (e.g., `B15`).
+   - Go to Data > Data Tools > Consolidate.
+   - Choose "Average" instead of "Sum".
+   - Ensure all other settings are retained, including the "Left column" labels.
+   - Click "OK".
+
+2. **Check the Average**:
+   - Verify the average leave days for each department.
 
 
 
