@@ -1,4 +1,4 @@
-# Intermediate I
+# Intermediate I : Week 1
 
 Table of Contents
 - [Multiple Worksheets](#Multiple-Worksheets)
