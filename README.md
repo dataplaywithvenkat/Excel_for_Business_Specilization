@@ -258,6 +258,64 @@ A more efficient way to sum values across multiple worksheets is by using 3D for
 - **Worksheet Order:** Ensure that worksheets remain in the same order if using 3D formulas. Moving sheets may exclude some data from the calculation.
 - **Identical Structure:** The workbooks you are summing must have an identical structure for the 3D formula to work correctly.
 
+## Linking Workbooks
+# Linking Workbooks in Excel
+
+## Introduction
+In collaborative environments, you often need to work with data spread across multiple workbooks. Excel facilitates this through workbook linking. This guide will show you how to link workbooks to summarize data from multiple sources.
+
+## Steps to Link Workbooks
+
+### 1. Preparing Your Workbooks
+1. **Open Workbooks**: Ensure you have opened `W1_LinkingWorkbooks.xlsx` and closed any other open workbooks.
+2. **Open Multiple Workbooks**:
+   - Press `Ctrl+O`.
+   - Navigate to where your workbooks are stored.
+   - Select `W1_ExpensesQ1.xlsx`, hold `Shift`, select Q3, and click `Open`.
+
+### 2. Arrange Workbooks for Easy Viewing
+1. **Minimize Ribbon**: Double-click the Home tab to minimize the ribbon.
+2. **Arrange All Workbooks**:
+   - Use the "Tell me what you want to do" feature by typing "Arrange All".
+   - Select "Tile" and click "OK" to view all workbooks simultaneously.
+
+### 3. Linking Data Between Workbooks
+1. **Create a Link**:
+   - Click in the cell where you want the total to appear (e.g., `C7`).
+   - Type `=` to start the formula.
+   - Switch to the Q1 workbook, click the cell with the value to link (e.g., `C7`).
+   - Excel automatically uses absolute references (e.g., `$C$7`). Press `F4` three times to remove the absolute reference.
+   - Press `Tab` to move to the next cell.
+
+2. **Repeat for Other Workbooks**:
+   - Type `=` in the target cell.
+   - Switch to the Q2 workbook, click the cell with the value to link, and press `F4` three times.
+   - Press `Tab` to move to the next cell.
+   - Repeat for Q3.
+
+### 4. Verify and Update Links
+1. **Test Links**:
+   - Change a value in one of the source workbooks (e.g., change Carlos' miles driven to 400 in Q1).
+   - Check if the linked cell in the summary workbook updates automatically.
+   - Undo the change to revert to the original value.
+
+2. **Copy Formulas**:
+   - Select the linked cells and use the fill handle to drag and copy the formulas across adjacent cells.
+   - Use "Fill without formatting" to maintain original formatting.
+
+### 5. Managing Workbook Links
+1. **Edit Links**:
+   - Go to the Data tab and select "Edit Links".
+   - Here, you can see all linked workbooks.
+   - If a link is broken, click "Change Source" to update the link.
+
+2. **Break Links**:
+   - Only break links if necessary, as it is irreversible.
+   - Select the link to break and click "Break Link".
+   - Confirm the warning. The cell formula will be replaced by the last known value.
+
+## Conclusion
+Linking workbooks is beneficial for dynamically updating data across multiple sources. However, ensure workbooks are not frequently moved or renamed to maintain link integrity. Practice linking workbooks to see how it can streamline data management in collaborative environments.
 
 
 
