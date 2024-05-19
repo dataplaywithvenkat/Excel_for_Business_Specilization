@@ -2,10 +2,10 @@
 
 Table of Contents
 - [Multiple Worksheets](#Multiple_Worksheets)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [3D Formulas](#3D_Formulas)
+- [Linking Workbooks](#Linking_Workbooks)
+- [Consolidating by Position](#Consolidating_by_Position)
+- [Consolidating by Category (Reference)](#Consolidating_by_Category_(Reference))
 
 
 # Multiple_Worksheets
@@ -61,7 +61,7 @@ Table of Contents
    - Select `Unhide`.
    - Choose the worksheet to unhide and click `OK`.
 
-## 3DFormulas
+# 3D_Formulas
 
 
 ### 1. Conventional Method
@@ -104,7 +104,7 @@ A more efficient way to sum values across multiple worksheets is by using 3D for
 - **Worksheet Order:** Ensure that worksheets remain in the same order if using 3D formulas. Moving sheets may exclude some data from the calculation.
 - **Identical Structure:** The workbooks you are summing must have an identical structure for the 3D formula to work correctly.
 
-## Linking Workbooks
+# Linking_Workbooks
 
 ### 1. Preparing Your Workbooks
 1. **Open Workbooks**: Ensure you have opened `W1_LinkingWorkbooks.xlsx` and closed any other open workbooks.
@@ -154,7 +154,7 @@ A more efficient way to sum values across multiple worksheets is by using 3D for
    - Select the link to break and click "Break Link".
    - Confirm the warning. The cell formula will be replaced by the last known value.
 
-## Consolidating by Position
+# Consolidating_by_Position
 
 ### 1. Preparing Your Workbooks
 1. **Open Workbooks**: Ensure you have the necessary workbooks open (`W1_LinkingWorkbooks.xlsx`, and the regional workbooks for Melbourne, Perth, and Sydney).
@@ -208,7 +208,7 @@ A more efficient way to sum values across multiple worksheets is by using 3D for
    - Consider the implications of linked data, as it can be more complex and harder to manage.
 
 
-## Consolidating by Category (Reference)
+# Consolidating_by_Category_(Reference)
 
 
 ### 1. Preparing Your Workbooks
