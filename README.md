@@ -128,6 +128,61 @@ Flash Fill is a feature available in Excel 2013 and later versions that automati
 4. Select `Flash Fill` to automatically apply the pattern to the rest of the column.
 
 
+# Intermediate I
+## 1. Multiple Worksheets
+
+### 1. Adding a New Worksheet
+1. Click the `+` button to the right of the worksheet tabs.
+2. A new blank worksheet will be added to the right of the current sheet.
+
+### 2. Moving a Worksheet
+1. Click and hold the worksheet tab you want to move.
+2. Drag it to the desired location.
+3. Look for the black arrow indicator before releasing the mouse button to place the sheet.
+
+### 3. Copying a Worksheet
+#### Method 1: Using Right-Click Menu
+1. Right-click on the worksheet tab you want to copy.
+2. Select `Move or Copy`.
+3. Choose the destination for the new copy and check `Create a copy`.
+4. Click `OK`.
+
+#### Method 2: Using Drag and Drop
+1. Hold the `Ctrl` key.
+2. Click and drag the worksheet tab to the desired location.
+3. Release the mouse button to create a copy.
+
+### 4. Deleting a Worksheet
+1. Right-click on the worksheet tab you want to delete.
+2. Select `Delete`.
+3. Confirm the deletion (note: this action cannot be undone).
+
+### 5. Renaming a Worksheet
+1. Double-click on the worksheet tab.
+2. Type the new name and press `Enter`.
+
+### 6. Color-Coding Worksheet Tabs
+1. Right-click on the worksheet tab you want to color-code.
+2. Select `Tab Color`.
+3. Choose the desired color.
+
+### 7. Grouping Worksheets
+1. Click on the first worksheet tab you want to group.
+2. Hold the `Shift` key and click on the last worksheet tab to group consecutive sheets.
+3. To make changes to all selected sheets simultaneously, edit any cell.
+4. Click away from the grouped tabs to ungroup them.
+
+### 8. Hiding and Unhiding Worksheets
+1. To hide a worksheet:
+   - Right-click on the worksheet tab.
+   - Select `Hide`.
+
+2. To unhide a worksheet:
+   - Right-click on any worksheet tab.
+   - Select `Unhide`.
+   - Choose the worksheet to unhide and click `OK`.
+
+
 
 
 
