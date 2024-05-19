@@ -185,6 +185,46 @@ Flash Fill is a feature available in Excel 2013 and later versions that automati
 ## 2. 3D Formulas
 
 
+### 1. Conventional Method
+1. Click in the cell where you want the total to appear.
+2. Type `=` to start the formula.
+3. Click on the cell in the first worksheet (e.g., Sean) that contains the value you want to include.
+4. Type `+` and then click on the corresponding cell in the next worksheet (e.g., Uma).
+5. Repeat for all relevant worksheets.
+6. Press `Enter` to complete the formula.
+
+**Note:** This method is time-consuming and prone to errors, especially with many worksheets.
+
+### 2. Using 3D Formulas
+A more efficient way to sum values across multiple worksheets is by using 3D formulas.
+
+#### Example: Summing Miles Driven
+1. Click in the cell where you want the total to appear.
+2. Type `=SUM(` to start the SUM function.
+3. Click on the first worksheet tab (e.g., Sean) and then click on the cell you want to sum (e.g., C7).
+4. Hold the `Shift` key and click on the last worksheet tab (e.g., Carlos). This selects all worksheets between Sean and Carlos.
+5. Ensure your formula reads something like `=SUM(Sean:Carlos!C7)`.
+6. Press `Enter` to complete the formula.
+
+### 3. Copying Formulas Using Fill Handle
+1. After entering the 3D formula, use the fill handle to copy the formula across adjacent cells.
+2. Double-click the fill handle to copy the formula down through the column.
+
+#### Example: Summing Lodging and Meals
+1. Click in the cell where you want the total to appear (e.g., C17).
+2. Type `=SUM(`.
+3. Click on the first worksheet tab (e.g., Sean) and then click on the cell you want to sum (e.g., C17).
+4. Hold the `Shift` key and click on the last worksheet tab (e.g., Carlos).
+5. Press `Enter`.
+6. Use the fill handle to copy the formula across and down.
+
+### 4. Copying Formulas for Identical Structures
+1. If the structure of the workbooks is identical, you can copy and paste formulas using `Ctrl+C` and `Ctrl+V`.
+
+### Limitations and Considerations
+- **Worksheet Order:** Ensure that worksheets remain in the same order if using 3D formulas. Moving sheets may exclude some data from the calculation.
+- **Identical Structure:** The workbooks you are summing must have an identical structure for the 3D formula to work correctly.
+
 
 
 
