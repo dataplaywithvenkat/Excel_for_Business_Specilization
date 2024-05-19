@@ -1,5 +1,34 @@
 # Intermediate I : Week 2
 
+# Table of Contents
+
+- [Combining Text (CONCAT, &)](#combining-text-concat-)
+- [Changing Text Case (UPPER, LOWER, PROPER)](#changing-text-case-upper-lower-proper-)
+- [Extracting Text (LEFT, MID, RIGHT)](#extracting-text-left-mid-right-)
+- [Finding Text (FIND)](#finding-text-find-)
+- [Date Calculations (NOW, TODAY, YEARFRAC)](#date-calculations-now-today-yearfrac-)
+
+## Combining Text (CONCAT, &)
+
+Content for the "Combining Text" section goes here.
+
+## Changing Text Case (UPPER, LOWER, PROPER)
+
+Content for the "Changing Text Case" section goes here.
+
+## Extracting Text (LEFT, MID, RIGHT)
+
+Content for the "Extracting Text" section goes here.
+
+## Finding Text (FIND)
+
+Content for the "Finding Text" section goes here.
+
+## Date Calculations (NOW, TODAY, YEARFRAC)
+
+Content for the "Date Calculations" section goes here.
+
+
 Table of Contents
 - [Combining Text (CONCAT, &)](#Combining-Text-(CONCAT,&))
 - [Changing Text Case (UPPER, LOWER, PROPER)](#Changing-Text-Case-(UPPER,LOWER,PROPER))
