@@ -6,7 +6,7 @@ Welcome to the project! Here is a table of contents to help you navigate through
 
 ## Table of Contents
 
-- [Introduction](#3DFormulas)
+- [3D Formula](#3DFormulas)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
