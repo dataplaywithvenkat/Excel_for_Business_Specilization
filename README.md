@@ -1,5 +1,38 @@
 # Excel_for_Business_Specilization
 
+# Project Title
+
+Welcome to the project! Here is a table of contents to help you navigate through the document.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+This project is designed to...
+
+## Installation
+
+To install the project, follow these steps...
+
+## Usage
+
+To use the project, you need to...
+
+## Contributing
+
+We welcome contributions! Please read our contributing guidelines...
+
+## License
+
+This project is licensed under the MIT License...
+
+
 ## 1. Data Entry, Data Types, Editing and Deleting
 
 ### Steps to Create and Populate a Workbook
