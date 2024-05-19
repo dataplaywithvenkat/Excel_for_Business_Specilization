@@ -7,7 +7,7 @@ Table of Contents
 - [Finding Text (FIND)](#Finding-Text-(FIND))
 - [Date Calculations (NOW, TODAY, YEARFRAC)](#Date-Calculations-(NOW,TODAY,YEARFRAC))
 
-# Combining Text (CONCAT, &)
+# Combining Text (CONCAT,&)
 
 ### Improving Employee Database
 
@@ -40,11 +40,14 @@ Alternatively, the Ampersand (&) sign can be used as a quick and simple way to l
 4. Press Enter to see the result.
 5. Double click the fill handle in the cell to copy the formula down.
 
-Both the CONCAT function and the Ampersand sign offer efficient ways to join data from separate columns. Remember to review the syntax for each approach and encase text elements in quotation marks when necessary. Additionally, check the Toolbox for more details on the syntax and consider using functions to fix any remaining issues in the database.
+### Ampersand Sign Function
 
 ```excel
 ="First Name" & "." & "Last Name" & "@pushpin.com"
 ```
+
+Both the CONCAT function and the Ampersand sign offer efficient ways to join data from separate columns. Remember to review the syntax for each approach and encase text elements in quotation marks when necessary. Additionally, check the Toolbox for more details on the syntax and consider using functions to fix any remaining issues in the database.
+
 
 # Changing Text Case (UPPER, LOWER, PROPER)
 # Extracting Text (LEFT, MID, RIGHT)
