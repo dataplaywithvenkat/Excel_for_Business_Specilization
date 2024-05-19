@@ -64,12 +64,74 @@
 3. Click on `AutoSum` in the far right of the ribbon.
 4. Press `Enter` to calculate the total.
 
+
+# Excel Fill Handle and Flash Fill Guide
+
+## Introduction
+This guide will help you understand how to use the fill handle and flash fill features in Excel to efficiently complete tasks such as creating a help desk roster.
+
+## Fill Handle
+
+### 1. Copying Data with the Fill Handle
+1. Select the cell with the data you want to copy.
+2. Hover over the bottom right-hand corner of the cell to see the fill handle (a small black cross).
+3. Click and drag the fill handle down to the desired row (e.g., row 17).
+4. Release the mouse button to copy the data.
+
+### 2. Creating a Series with the Fill Handle
+1. Select the cell with the starting value (e.g., `R1001` in cell `B4`).
+2. Hover over the fill handle.
+3. Click and drag the fill handle down to create a series (e.g., `R1001, R1002, R1003,...`).
+
+### 3. Using the Fill Handle for Dates
+1. Select the cell with the starting date (e.g., `01/05/2023`).
+2. Double-click the fill handle to automatically fill the column with a series of dates.
+
+### 4. Using the Fill Handle for Days of the Week
+1. Select the cell with the starting day (e.g., `Monday`).
+2. Double-click the fill handle to fill the column with the days of the week.
+
+### 5. Filling Multiple Columns Simultaneously
+1. Select multiple cells that start a series (e.g., `R1001`, `01/05/2023`, `Monday`).
+2. Double-click the fill handle to fill all selected columns simultaneously.
+
+### 6. Copying Numbers
+1. Select the cell with the number to copy (e.g., `8` hours).
+2. Double-click the fill handle to copy the number down the column.
+
+### 7. Fill Handle Options for Numbers
+1. After using the fill handle, hover over the Auto Fill Options icon that appears.
+2. Click the drop-down arrow.
+3. Select `Fill Series` to create a series instead of copying the number.
+
+### 8. Fill Handle Options for Dates
+1. Double-click the fill handle on a date cell.
+2. Hover over the Auto Fill Options icon.
+3. Choose options like `Fill Series`, `Fill Weekdays`, or `Fill Months`.
+
+### 9. Creating Patterns with the Fill Handle
+1. Select the starting cells of a pattern (e.g., `8`, `16`).
+2. Double-click the fill handle to fill the column following the pattern.
+
+### 10. Copying Groups of Data
+1. Select a group of cells (e.g., five help desk staff names).
+2. Double-click the fill handle to copy the entire group down the column.
+
+## Using Flash Fill
+### Introduction to Flash Fill
+Flash Fill is a feature available in Excel 2013 and later versions that automatically fills in values based on patterns it detects.
+
+### 1. Using Flash Fill for Data Patterns
+1. Enter a couple of examples that establish a pattern (e.g., `Rajesh`'s email `Rajesh.Singh@company.com`).
+2. Drag the fill handle down to copy.
+3. Click on the Auto Fill Options icon.
+4. Select `Flash Fill` to automatically apply the pattern to the rest of the column.
+
 ## Practice Exercise
-Use the steps above to create your own workbook and track your daily expenses. This will help reinforce your learning and improve your Excel skills.
+Try using the fill handle and flash fill features to create your help desk roster and other data patterns. This practice will help you become more confident and efficient in using Excel.
 
 ## Conclusion
-Following this guide, you should now be able to create a new Excel workbook, enter and edit data, adjust columns, and use basic formulas to manage and total your expenses.
-
+By following this guide, you should be able to use the fill handle and flash fill to quickly and efficiently complete tasks in Excel, such as creating rosters, filling series, copying data, and recognizing patterns.
 
 
 
