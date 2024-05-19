@@ -215,7 +215,7 @@ Flash Fill is a feature available in Excel 2013 and later versions that automati
    - Select `Unhide`.
    - Choose the worksheet to unhide and click `OK`.
 
-## 2. 3D Formulas
+## 3DFormulas
 
 
 ### 1. Conventional Method
