@@ -8,7 +8,7 @@
 - [Finding Text (FIND)](#finding-text-find-)
 - [Date Calculations (NOW, TODAY, YEARFRAC)](#date-calculations-now-today-yearfrac-)
 
-# Combining Text (CONCAT,&)
+# Combining Text (CONCAT, &)
 
 ### Improving Employee Database
 
